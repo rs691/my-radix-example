@@ -25,7 +25,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Anybody", "system-ui"],
-
     },
     },
   },
