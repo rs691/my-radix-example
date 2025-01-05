@@ -11,11 +11,13 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
+    "@heroicons/react": "^2.2.0",
     "@radix-ui/react-dialog": "^1.1.4",
     "@radix-ui/react-select": "^2.1.4",
     "@radix-ui/react-toggle": "^1.1.1",
     "@radix-ui/themes": "^3.1.6",
     "daisyui": "^4.12.23",
+    "lucide-react": "^0.469.0",
     "my-radix-example": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
