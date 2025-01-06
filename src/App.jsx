@@ -9,7 +9,7 @@ import leafMedium from "../public/leafMedium.svg";
 import leafBlue6 from "../public/leafBlue6.svg";
 import bvue from "../public/bvue.png";
 import aboutMe from "../public/aboutMe.png";
-import lightbulb from "../public/lightbulb.svg";
+import projects from "../public/projects.png";
 import screenVariant from "../public/screenVariant.svg";
 import "./App.css";
 import "@radix-ui/themes/styles.css";
@@ -34,7 +34,7 @@ import Footer from "./components/Footer";
   { 
     to: "/projects", 
     title: "Projects", 
-    img: lightbulb,
+    img: projects,
     description: "Explore my portfolio of projects"
   },
   { 
