@@ -17,6 +17,7 @@
     "@radix-ui/react-toggle": "^1.1.1",
     "@radix-ui/themes": "^3.1.6",
     "daisyui": "^4.12.23",
+    "font-awesome": "^4.7.0",
     "lucide-react": "^0.469.0",
     "my-radix-example": "file:",
     "react": "^18.3.1",

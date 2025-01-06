@@ -32,6 +32,7 @@ export default {
         error: "#ff5724",
         black: "black",
         white: "white",
+        footer: "#578E7E",
       },
     },
   ],
@@ -50,10 +51,13 @@ export default {
       fuchsia: "#9b59b6",
       "fuchsia-light": "#a29bfe",
       "purple-dark": "#9b59b6",
+      footer: "#578E7E",
     },
     extend: {
       fontFamily: {
         sans: ["Anybody", "system-ui"],
+      
+        
     },
     },
   },
