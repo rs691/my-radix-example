@@ -3,7 +3,6 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import "@radix-ui/themes/styles.css";
-
 import { createHashRouter, RouterProvider } from "react-router-dom";
 import Projects from "./pages/Projects.jsx";
 import Project1 from "./pages/Project1.jsx";
@@ -59,9 +58,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   
     <RouterProvider router={router} />
-  
-    
   </StrictMode>,
 )

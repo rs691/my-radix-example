@@ -45,7 +45,6 @@ export default {
       green: "#13ce66",
       yellow: "#ffc82c",
       "gray-dark": "#273444",
-      gray: "lightgray",
       "gray-light": "#d3dce6",
       "fuchsia-dark": "#8e44ad",
       fuchsia: "#9b59b6",
