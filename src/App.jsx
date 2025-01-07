@@ -9,7 +9,7 @@ import leafMedium from "/leafMedium.svg";
 import leafBlue6 from "/leafBlue6.svg";
 import bvue from "/bvue.png";
 import aboutMe from "/aboutMe.png";
-import projects from "/projects.png";
+import projects from "/projects.svg";
 import screenVariant from "/screenVariant.svg";
 import "./App.css";
 import "@radix-ui/themes/styles.css";
