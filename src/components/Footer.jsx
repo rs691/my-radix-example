@@ -45,6 +45,9 @@ function Footer() {
         className="absolute bottom-0 right-0 w-20 md:w-24 opacity-60"
       />
     </footer>
+
+
+
   );
 }
 

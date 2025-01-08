@@ -37,7 +37,11 @@ export default {
     },
   ],
   theme: {
+   
+    
     colors: {
+      dark: "black",
+      'bg-primary': "#0d1117",
       blue: "#1fb6ff",
       purple: "#7e5bef",
       pink: "#ff49db",
@@ -63,7 +67,7 @@ export default {
   plugins: [daisyui],
   daisyui: {
     themes: ["light", "dark"],
-    darkTheme: "dark",
+   darkTheme: "black",
     base: true,
     styled: true,
   },

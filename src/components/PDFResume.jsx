@@ -19,6 +19,7 @@ const PDFResume = ({ pdfUrl }) => {
           >
             ✕
           </label>
+          
           <iframe
             src={`${pdfUrl}#toolbar=0&navpanes=0&scrollbar=0`}
             className="w-full h-full"
