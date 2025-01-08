@@ -1,4 +1,5 @@
 import AnimatedLayout from '../components/AnimatedLayout';
+import Project2 from './Project2';
 
 function Projects() {
   return (
@@ -34,18 +35,8 @@ function Projects() {
 <div className="text: 5xl text-green">Project 3</div>
 
 </div>
-<div className="hero bg-transparent h-[500px]">
-          <div className="hero-content text-center text-black">
-            <div className="max-w-xlg">
-              <span className="text-base-content relative col-start-1 row-start-1 bg-[linear-gradient(90deg,#6439FF,#00CCDD)] bg-clip-text text-transparent font-cabin md:leading-[110px] text-[30px] sm:text-[50px] lg:text-[80px] xl:text-[116px] font-[800] tracking-tight z-10">
-                Hello, my name is Robert.{" "}
-              </span>
-              <p className="text-4xl font-bold text-center">
-                and I&apos;m a software developer.
-              </p>
-            </div>
-          </div>
-        </div>
+
+
         <div className="hero bg-transparent h-[500px]">
           <div className="hero-content text-center text-black">
             <div className="max-w-xlg">
@@ -58,18 +49,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="hero bg-transparent h-[500px]">
-          <div className="hero-content text-center text-black">
-            <div className="max-w-xlg">
-              <span className="text-base-content relative col-start-1 row-start-1 bg-[linear-gradient(90deg,#6439FF,#00CCDD)] bg-clip-text text-transparent font-cabin md:leading-[110px] text-[30px] sm:text-[50px] lg:text-[80px] xl:text-[116px] font-[800] tracking-tight z-10">
-                Hello, my name is Robert.{" "}
-              </span>
-              <p className="text-4xl font-bold text-center">
-                and I&apos;m a software developer.
-              </p>
-            </div>
-          </div>
-        </div>
+        <Project2 />
 </AnimatedLayout>
     </div>
   );

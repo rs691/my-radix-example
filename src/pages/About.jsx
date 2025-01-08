@@ -2,6 +2,7 @@ import BackButton from "../components/BackButton";
 import PDFResume from "../components/PDFResume";
 import Layout from "../components/Layout";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 
 const about = {
@@ -33,7 +34,16 @@ function About() {
         <h2 className="text-4xl mb-4">View Resume</h2>
         <PDFResume pdfUrl="./public/resume.pdf" />
       </div>
+      <Link
+                to="/" // Add the path where your resume is located
+                className="text-blue-500  hover:text-blue-700"
+              >
+                View Resume
+              </Link>
       </div>
+
+
+     
     <div className="hero bg-transparent h-[500px]">
       <div className="hero-content text-center text-black">
         <div className="max-w-xlg">
@@ -46,6 +56,22 @@ function About() {
         </div>
       </div>
     </div>
+    <div className={`hero min-h-screen text-center py-0`}>
+          <div className="hero-content">
+            <div className="max-w-lg">
+              <h1 className="text-5xl font-bold">{about.title}</h1>
+              <p className="py-6">{about.description}</p>
+              <div className="text-center py-12">
+        <h2 className="text-4xl mb-4">View Resume</h2>
+        <PDFResume pdfUrl="./public/resume.pdf" />
+      </div>
+            </div>
+          </div>
+          </div>
+    <div className="text-center py-12">
+        <h2 className="text-4xl mb-4">View Resume</h2>
+        <PDFResume pdfUrl="./public/resume.pdf" />
+      </div>
     
     </Layout>
     <Footer />
