@@ -1,8 +1,8 @@
 import  { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import BackButton from '../components/BackButton';
-import FramerLayout from '../components/Layout';
-import Footer from '../components/Footer';
+
+import AnimatedLayout from '../components/AnimatedLayout';
+
 
 const ContactPage = () => {
   const form = useRef();
@@ -31,12 +31,12 @@ const ContactPage = () => {
   };
 
   return (
-   <>
-    <FramerLayout>
-      <div>
-    <BackButton />
    
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-xl ">
+    <AnimatedLayout>
+      <div>
+   
+   
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-xl">
       <h1 className="text-2xl font-bold mb-6 text-center">Contact Me</h1>
       <form ref={form} onSubmit={sendEmail} className="space-y-4">
         <input type="hidden" name="contact_number" value="697483" />
@@ -67,9 +67,9 @@ const ContactPage = () => {
     </div>
     </div>
  
-    </FramerLayout>
-    <Footer />
-    </>
+    </AnimatedLayout>
+    
+    
   );
 };
 

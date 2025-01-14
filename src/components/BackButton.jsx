@@ -1,80 +1,57 @@
-
-
-
 import { useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import styles from '../css/./Other.module.css';
-
-
+import styles from '../css/Other.module.css';
 
 const BackButton = () => {
     const location = useLocation();
     const navigate = useNavigate();
-
-
-    // Initialize isHomePage
     const isHomePage = location.pathname === '/';
-
     const [isHovered, setIsHovered] = useState(false);
-
-
 
     const handleBack = () => {
         if (isHomePage) {
             navigate('/');
         } else {
             navigate(-1);
-
         }
-    }
+    };
 
     return (
+        <div className={styles.backButton}>
 
-
-
-
-           
-<div className='{styles.backButton}'>
 <button 
-              onClick={handleBack}
-              className={styles.backButton}
-              onMouseEnter={() => setIsHovered(true)}
-              onMouseLeave={() => setIsHovered(false)}
-              style={{
-                position: 'fixed',
-                top: '30px',
-                left: '30px',
-                background: 'green',
-                border: 'none',
-                borderRadius: '50%',
-                padding: '10px',
-                cursor: 'pointer',
-                boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                transition: 'all 0.3s ease',
-                transform: isHovered ? 'scale(1.1)' : 'scale(1)'
-              }}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="34"
-                height="34"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth={isHovered ? "3" : "2"}
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                style={{
-                  transition: 'all 0.3s ease'
-                }}
-              >
-                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
-            </button>
-            </div>
+    onClick={handleBack}
+    onMouseEnter={() => setIsHovered(true)}
+    onMouseLeave={() => setIsHovered(false)}
+    className={`${styles.backButton} ${isHovered ? styles.hovered : ''}`}
+>
+<svg 
+                    width="30" 
+                    height="30" 
+                    viewBox="0 0 64 64" 
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path 
+                        d="M56.81,53.25H18.3a2,2,0,0,1-1.73-1L5.46,33a2,2,0,0,1,0-2L16.57,11.75a2,2,0,0,1,1.73-1H37.71a2,2,0,0,1,0,4H19.46L9.5,32l10,17.25H54.81V14.75H51.5a2,2,0,0,1,0-4h5.31a2,2,0,0,1,2,2v38.5A2,2,0,0,1,56.81,53.25Z"
+                        fill="#0074ff"
+                    />
+                    <path 
+                        d="M46,40.79a2,2,0,0,1-1.41-.59L31,26.63a2,2,0,0,1,2.83-2.83L47.41,37.38A2,2,0,0,1,46,40.79Z"
+                        fill="#ffb300"
+                    />
+                    <path 
+                        d="M32.42,40.79A2,2,0,0,1,31,37.38L44.59,23.8a2,2,0,0,1,2.82,2.83L33.84,40.2A2,2,0,0,1,32.42,40.79Z"
+                        fill="#ffb300"
+                    />
+                </svg>
+      </button>
 
-        );
-}
+
+          
+
+
+        </div>
+    );
+};
 
 export default BackButton;

@@ -58,15 +58,13 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
-      
-        
+        sans: ["Inter", "sans-serif"],   
     },
     },
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["light"],
    darkTheme: "black",
     base: true,
     styled: true,

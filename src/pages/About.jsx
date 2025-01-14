@@ -42,7 +42,10 @@ function About() {
               </Link>
       </div>
 
-
+<div className="flex flex-col items-center">
+        
+        <a href="https://delightful-sky-05e7bac0f.4.azurestaticapps.net/" className="text-center">Azure web page</a>
+        </div>
      
     <div className="hero bg-transparent h-[500px]">
       <div className="hero-content text-center text-black">

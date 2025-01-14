@@ -2,10 +2,10 @@ import leaf2 from "../images/leaf2.svg";
 
 function Footer() {
   return (
-    <footer className="footer footer-center text-base-content relative py-6">
-      <nav className="flex items-center justify-center space-x-6">
+    <footer className="footer footer-center text-base-content relative py-6 ">
+      <nav className="flex items-center justify-center space-x-6 ">
         {/* GitHub Icon */}
-        <a href="https://github.com" className="hover:opacity-80 transition-opacity">
+        <a href="https://github.com" className="hover:opacity-80 transition-opacity ">
           <svg 
             xmlns="http://www.w3.org/2000/svg" 
             viewBox="0 0 496 512"

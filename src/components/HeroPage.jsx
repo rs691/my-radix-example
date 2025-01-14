@@ -12,7 +12,7 @@ const about = {
 
 function HeroPage() {
   return (
-    <>
+   
     <div>
       <div className={`hero min-h-screen text-center py-0`}>
             <div className="hero-content">
@@ -28,7 +28,7 @@ function HeroPage() {
             </div>
       </div>
  
-  </>
+  
   );
 }
 export default HeroPage;
