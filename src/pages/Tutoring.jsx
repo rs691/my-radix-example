@@ -1,6 +1,6 @@
 import BackButton from "../components/BackButton";
 import bvue from "/bvue.png";
-
+import Layout from "../components/Layout";
 import Footer from "../components/Footer";
 
 
@@ -11,10 +11,10 @@ const education = {
     "I started my journey in software development in 2021. I am currently pursuing a Bachelor of Science in Software Development at Bellevue University.",
 };
 
-function Education() {
+function Tutoring() {
   return (
     <>
-   
+    <Layout>
     <div>
     <BackButton />
   
@@ -22,7 +22,7 @@ function Education() {
     <div className={`hero min-h-screen text-center py-0`}>
           <div className="hero-content">
             <div className="max-w-lg">
-              <h1 className="text-8xl font-bold text-purple-dark">{education.title}</h1>
+              <h1 className="text-5xl font-bold">{education.title}</h1>
               <p className="py-6">{education.description}</p>
             </div>
           </div>
@@ -38,10 +38,10 @@ function Education() {
     </div>
     
     </div>
-    
+    </Layout>
     <Footer/>
     </>
   );
 }
 
-export default Education;
+export default Tutoring;

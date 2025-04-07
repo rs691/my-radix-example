@@ -1,6 +1,6 @@
 import BackButton from "../components/BackButton";
 import PDFResume from "../components/PDFResume";
-import Layout from "../components/Layout";
+
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const about = {
 function About() {
   return (
     <>
-    <Layout>
+  
     <div>
      
       <BackButton />
@@ -76,7 +76,7 @@ function About() {
         <PDFResume pdfUrl="./public/resume.pdf" />
       </div>
     
-    </Layout>
+   
     <Footer />
     </>
   );

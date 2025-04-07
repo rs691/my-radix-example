@@ -1,15 +1,15 @@
 import BackButton from "../components/BackButton";
-import AnimatedLayout from "../components/AnimatedLayout";
+import NewLayout from "../components/AnimatedLayout";
 
 
 
 function Project1() {
     return (
         <div>
-            <AnimatedLayout>
+            <NewLayout>
             <BackButton />
             <h1>Project1</h1>
-            </AnimatedLayout>
+            </NewLayout>
         </div>
     )
 }

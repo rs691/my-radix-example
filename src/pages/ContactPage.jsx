@@ -1,7 +1,7 @@
 import  { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-import AnimatedLayout from '../components/AnimatedLayout';
+
 
 
 const ContactPage = () => {
@@ -32,7 +32,7 @@ const ContactPage = () => {
 
   return (
    
-    <AnimatedLayout>
+    
       <div>
    
    
@@ -67,7 +67,6 @@ const ContactPage = () => {
     </div>
     </div>
  
-    </AnimatedLayout>
     
     
   );

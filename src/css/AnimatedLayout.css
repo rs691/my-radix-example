@@ -18,3 +18,8 @@
 background: rgb(21,24,35);
 background: linear-gradient(90deg, rgba(21,24,35,1) 0%, rgba(9,9,121,1) 35%, rgba(29,33,43,1) 100%);
   }
+
+  body{
+    background: rgb(21,24,35);  
+    background: linear-gradient(90deg, rgba(21,24,35,1) 0%, rgba(9,9,121,1) 35%, rgba(29,33,43,1) 100%);
+  }

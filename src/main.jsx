@@ -12,6 +12,9 @@ import About from "./pages/About.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import Education from "./pages/Education.jsx";
 
+import Tutoring from "./pages/Tutoring.jsx";
+
+
 
 
 const router = createHashRouter([
@@ -20,16 +23,20 @@ const router = createHashRouter([
     element: <App />,
   },
   {
-    path: "/about",
+    path: "about",
     element: <About />,
   },
   {
-    path: "/contactPage",
+    path: "contactPage",
     element: <ContactPage/>,
   },
   {
     path: "education",
     element: <Education />,
+  },
+  {
+    path: "tutoring",
+    element: <Tutoring />,
   },
   {
     path: "projects",
@@ -46,6 +53,10 @@ const router = createHashRouter([
   {
     path: "project3",
     element: <Project3 />,
+  },
+  {
+    path: "*",
+    element: <h1 className="notFound">Not Found</h1>,
   },
  
   {
